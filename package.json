@@ -1,0 +1,27 @@
+{
+  "name": "interactionjs",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Nauval",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "2.0.1",
+    "jest": "^25.1.0",
+    "laravel-mix": "^5.0.1",
+    "random-words": "^1.1.0",
+    "ts-jest": "^25.1.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "dev": "yarn development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "yarn development --watch",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "yarn production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  }
+}
