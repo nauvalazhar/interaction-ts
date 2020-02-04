@@ -10,3 +10,6 @@ idk
 6. Your browser will automatically open
 7. Ok
 8. love you
+
+## Quick Demo
+[Hit me!](https://interaction-ts.netlify.com/)
