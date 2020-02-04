@@ -7,6 +7,7 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "browser-sync-webpack-plugin": "2.0.1",
+    "cross-env": "^7.0.0",
     "jest": "^25.1.0",
     "laravel-mix": "^5.0.1",
     "random-words": "^1.1.0",
